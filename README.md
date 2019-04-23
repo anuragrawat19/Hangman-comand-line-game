@@ -1,0 +1,2 @@
+# Hangman-comand-line-game
+Hangman  is a game in which  computer decides a  random words and user has to guess the it's alphabet if user guess it  correctly then that alphabet will be displayed at it;'s respected place or user guess the wrong alphabet which is not their in the word then user's one chance will be over.Basically I made this game in PYTHON and has used some inbuilt functions like random etc 
