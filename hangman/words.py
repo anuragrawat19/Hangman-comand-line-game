@@ -3,7 +3,7 @@ import random
 
 def load_words():
     """
-    Ye function kaafi jayada words ko load karne mai help karega
+    this function helps in loading a words from a file named" words.text"
     """
     print "Loading word word list from file........"
     inFile=open("words.txt","r")
@@ -16,7 +16,7 @@ def load_words():
 def choose_word():
     """
     word_list (list): list of words (strings)
-    ye function ek word randomly return karega
+    this function will return a random word from a list and will store it into a varibale "secret_word" 
     """
     word_list = load_words()
     secret_word = random.choice(word_list)
